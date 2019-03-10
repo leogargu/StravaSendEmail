@@ -1,0 +1,9 @@
+New file available to download\r\n
+Current ride name: {current_activity_name}\r\n
+Activity id: {activity_id}\r\n
+Name of original .fit file: {external_id}\r\n
+Note: the ride name may have changed since this email was sent.\r\n
+Download it by clicking <a href={url}>here</a>. If the link doesn't work, copy the url at the end of the message and paste it in a browser.\r\n
+The link will expire after a while.\r\n
+\n\n
+{url}

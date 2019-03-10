@@ -1,0 +1,19 @@
+<html>
+<head></head>
+<body>
+<p>New file available to download</p>
+<div style="border:2px solid black">
+  <ul>
+  <li><b>(Current<sup>*</sup>) ride name:</b> {current_activity_name}</li>
+  <li><b>Activity id:</b> {activity_id}</li>
+  <li><b>Name of original .fit file:</b> {external_id}</li>
+</ul>
+<p><sup>*</sup><i>The name may have changed since this email was sent</i></p>
+</div>
+<p>
+Download it by clicking <a href={url}>here</a>. If the link doesn't work, copy the url below and paste it in a browser. The link will expire after a while.
+</p>
+<hr>
+<p>{url}</p>
+</body>
+</html>
